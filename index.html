@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | FAQ Accordion Card</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<section class="card">
+			<img
+				src="/images/illustration-box-desktop.svg"
+				alt="card box"
+				class="card__box"
+			/>
+			<div class="card__image">
+				<img
+					src="/images/illustration-woman-online-desktop.svg"
+					alt="woman online desktop"
+				/>
+			</div>
+			<div class="card__text">
+				<h1>FAQ</h1>
+
+				<div class="accordion">
+					<div class="accordion__item">
+						<button class="accordion__question">
+							What is the UX Capsule?
+						</button>
+						<div class="accordion__collapse collapse">
+							<div class="accordion__content">
+								The UX Capsule is a comprehensive digital archive dedicated to preserving and providing access to a wide array of user experience (UX) and user interface (UI) design resources. Spanning from the 1980s to the present, it aims to serve as a valuable resource for students, professionals, and enthusiasts interested in the evolution and current practices of UX/UI design.
+
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion__item">
+						<button class="accordion__question">
+							How is the archive organized?
+						</button>
+						<div class="accordion__collapse collapse">
+							<div class="accordion__content">
+								Our archive is meticulously categorized by decade, topic (such as research, design principles, case studies), and type of resource (articles, videos, templates, etc.). We've designed an intuitive navigation system that allows users to easily browse through historical trends or dive deep into specific UX/UI subjects.
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion__item">
+						<button class="accordion__question">
+              What types of resources are included in the UX Capsule?
+						</button>
+						<div class="accordion__collapse collapse">
+							<div class="accordion__content">
+								The capsule encompasses a broad spectrum of resources, including but not limited to scholarly articles, industry research papers, design templates and tools, in-depth case studies, instructional video tutorials, and legacy software tools. We aim to cover every aspect of UX/UI design, from theoretical foundations to practical applications.
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Juyeoung Kim</a>.
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
+
+
